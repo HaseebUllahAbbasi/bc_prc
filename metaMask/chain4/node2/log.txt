@@ -1,0 +1,40 @@
+INFO [12-08|15:17:42.949] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-08|15:17:42.949] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-08|15:17:42.950] Set global gas cap                       cap=50,000,000
+INFO [12-08|15:17:42.950] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-08|15:17:42.950] Allocated cache and file handles         database=/home/haseeb/e_practice/metaMask/chain4/node2/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-08|15:17:43.006] Opened ancient database                  database=/home/haseeb/e_practice/metaMask/chain4/node2/geth/chaindata/ancient readonly=false
+INFO [12-08|15:17:43.007] Initialised chain configuration          config="{ChainID: 4201 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 4 Constantinople: 5 Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-08|15:17:43.007] Disk storage enabled for ethash caches   dir=/home/haseeb/e_practice/metaMask/chain4/node2/geth/ethash count=3
+INFO [12-08|15:17:43.007] Disk storage enabled for ethash DAGs     dir=/home/haseeb/.ethash count=2
+INFO [12-08|15:17:43.007] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [12-08|15:17:43.009] Loaded most recent local header          number=0 hash=eed0d9..b1c3cb td=524,288 age=4d42m25s
+INFO [12-08|15:17:43.009] Loaded most recent local full block      number=0 hash=eed0d9..b1c3cb td=524,288 age=4d42m25s
+INFO [12-08|15:17:43.009] Loaded most recent local fast block      number=0 hash=eed0d9..b1c3cb td=524,288 age=4d42m25s
+INFO [12-08|15:17:43.009] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-08|15:17:43.010] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-08|15:17:43.010] Gasprice oracle is ignoring threshold set threshold=2
+INFO [12-08|15:17:43.011] Starting peer-to-peer node               instance=Geth/v1.10.13-stable-7a0c19f8/linux-amd64/go1.17.2
+INFO [12-08|15:17:43.035] IPC endpoint opened                      url=/home/haseeb/e_practice/metaMask/chain4/node2/geth.ipc
+INFO [12-08|15:17:43.036] New local node record                    seq=1,638,958,450,234 id=66f0f0993a795402 ip=127.0.0.1 udp=0 tcp=30304
+INFO [12-08|15:17:43.036] Started P2P networking                   self="enode://6dd4d445dce4740d2f2788d5e71898ecc9adfd6a03c830915e7cb2e2155c45ee1570a251f11f4672fe98319de0efcfdbdbcbc60fccb358dacc01bc0d18c93b50@127.0.0.1:30304?discport=0"
+WARN [12-08|15:17:43.083] Served eth_coinbase                      reqid=3 t="24.028µs" err="etherbase must be explicitly specified"
+INFO [12-08|15:21:58.863] Your new key was generated               address=0xb18d8f1187e209b7523478382B4bDdc3CFbfB35E
+WARN [12-08|15:21:58.863] Please backup your key file!             path=/home/haseeb/e_practice/metaMask/chain4/node2/keystore/UTC--2021-12-08T10-21-57.282329929Z--b18d8f1187e209b7523478382b4bddc3cfbfb35e
+WARN [12-08|15:21:58.863] Please remember your password! 
+INFO [12-08|15:22:22.804] Your new key was generated               address=0xbC7e838C44bd80F5ed50c056EEaFB9b290ce0FE1
+WARN [12-08|15:22:22.804] Please backup your key file!             path=/home/haseeb/e_practice/metaMask/chain4/node2/keystore/UTC--2021-12-08T10-22-21.219580817Z--bc7e838c44bd80f5ed50c056eeafb9b290ce0fe1
+WARN [12-08|15:22:22.805] Please remember your password! 
+WARN [12-08|15:29:59.859] Served admin_addPeer                     reqid=14 t="134.168µs" err="invalid enode: missing 'enr:' prefix for base64-encoded record"
+WARN [12-08|15:30:14.903] Served admin_addPeer                     reqid=15 t="93.403µs"  err="invalid enode: missing 'enr:' prefix for base64-encoded record"
+INFO [12-08|15:31:06.799] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-08|15:31:41.800] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-08|15:35:32.382] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-08|15:35:44.252] IPC endpoint closed                      url=/home/haseeb/e_practice/metaMask/chain4/node2/geth.ipc
+INFO [12-08|15:35:44.252] Ethereum protocol stopped 
+INFO [12-08|15:35:44.252] Transaction pool stopped 
+INFO [12-08|15:35:44.252] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-08|15:35:44.252] Persisted trie from memory database      nodes=0 size=0.00B time="5.095µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-08|15:35:44.252] Writing clean trie cache to disk         path=/home/haseeb/e_practice/metaMask/chain4/node2/geth/triecache threads=4
+INFO [12-08|15:35:44.255] Persisted the clean trie cache           path=/home/haseeb/e_practice/metaMask/chain4/node2/geth/triecache elapsed=2.492ms
+INFO [12-08|15:35:44.255] Blockchain stopped 

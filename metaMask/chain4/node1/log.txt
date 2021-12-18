@@ -1,0 +1,120 @@
+INFO [12-08|15:14:55.441] Starting Geth on Ethereum mainnet... 
+INFO [12-08|15:14:55.441] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [12-08|15:14:55.444] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-08|15:14:55.444] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [12-08|15:14:55.445] Sanitizing cache to Go's GC limits       provided=4096 updated=2622
+INFO [12-08|15:14:55.446] Set global gas cap                       cap=50,000,000
+INFO [12-08|15:14:55.446] Allocated trie memory caches             clean=393.00MiB dirty=655.00MiB
+INFO [12-08|15:14:55.446] Allocated cache and file handles         database=/home/haseeb/e_practice/metaMask/chain4/node1/geth/chaindata cache=1.28GiB handles=524,288
+INFO [12-08|15:14:55.489] Opened ancient database                  database=/home/haseeb/e_practice/metaMask/chain4/node1/geth/chaindata/ancient readonly=false
+INFO [12-08|15:14:55.490] Initialised chain configuration          config="{ChainID: 4201 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 4 Constantinople: 5 Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-08|15:14:55.490] Disk storage enabled for ethash caches   dir=/home/haseeb/e_practice/metaMask/chain4/node1/geth/ethash count=3
+INFO [12-08|15:14:55.491] Disk storage enabled for ethash DAGs     dir=/home/haseeb/.ethash count=2
+INFO [12-08|15:14:55.491] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [12-08|15:14:55.493] Loaded most recent local header          number=0 hash=eed0d9..b1c3cb td=524,288 age=4d39m37s
+INFO [12-08|15:14:55.493] Loaded most recent local full block      number=0 hash=eed0d9..b1c3cb td=524,288 age=4d39m37s
+INFO [12-08|15:14:55.493] Loaded most recent local fast block      number=0 hash=eed0d9..b1c3cb td=524,288 age=4d39m37s
+INFO [12-08|15:14:55.494] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-08|15:14:55.494] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-08|15:14:55.494] Gasprice oracle is ignoring threshold set threshold=2
+INFO [12-08|15:14:55.494] Starting peer-to-peer node               instance=Geth/v1.10.13-stable-7a0c19f8/linux-amd64/go1.17.2
+INFO [12-08|15:14:55.524] New local node record                    seq=1,638,957,933,741 id=39569ecd1d4f0d04 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [12-08|15:14:55.525] IPC endpoint opened                      url=/home/haseeb/e_practice/metaMask/chain4/node1/geth.ipc
+INFO [12-08|15:14:55.527] Started P2P networking                   self=enode://9a7e0c71c49843b777b5f1e511109edb5b91ae9b5416081f748822e7099c283656b146ae6d378987312056018cda4ff06867eee12bd9fd3f80fc06ae06cd9b12@127.0.0.1:30303
+WARN [12-08|15:14:55.572] Served eth_coinbase                      reqid=3 t="23.505µs" err="etherbase must be explicitly specified"
+INFO [12-08|15:15:00.636] New local node record                    seq=1,638,957,933,742 id=39569ecd1d4f0d04 ip=121.52.154.75 udp=30303 tcp=30303
+INFO [12-08|15:15:06.298] Looking for peers                        peercount=0 tried=16 static=0
+INFO [12-08|15:15:16.469] Looking for peers                        peercount=1 tried=30 static=0
+INFO [12-08|15:15:26.668] Looking for peers                        peercount=0 tried=30 static=0
+INFO [12-08|15:15:36.681] Looking for peers                        peercount=0 tried=29 static=0
+INFO [12-08|15:15:46.683] Looking for peers                        peercount=0 tried=10 static=0
+INFO [12-08|15:15:56.683] Looking for peers                        peercount=0 tried=4  static=0
+INFO [12-08|15:16:06.685] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:16:16.686] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:16:26.688] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:16:36.689] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:16:46.690] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:16:56.691] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:06.692] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:16.694] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:26.695] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:36.697] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:46.699] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:17:56.701] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:18:09.217] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:18:19.218] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:18:29.220] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:18:39.221] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:18:49.223] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:03.232] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:13.234] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:23.236] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:33.236] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:43.238] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:19:55.253] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:05.254] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:15.257] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:25.257] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:35.258] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:44.229] New local node record                    seq=1,638,957,933,743 id=39569ecd1d4f0d04 ip=127.0.0.1     udp=30303 tcp=30303
+INFO [12-08|15:20:45.259] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:20:55.260] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:21:02.160] Your new key was generated               address=0x71F2C524a7D3c76815072A92e92Fe7849B213D37
+WARN [12-08|15:21:02.160] Please backup your key file!             path=/home/haseeb/e_practice/metaMask/chain4/node1/keystore/UTC--2021-12-08T10-21-00.556390650Z--71f2c524a7d3c76815072a92e92fe7849b213d37
+WARN [12-08|15:21:02.160] Please remember your password! 
+INFO [12-08|15:21:05.262] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:21:15.263] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:21:25.264] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:21:34.668] Your new key was generated               address=0x43577ed527Aa899994491cD491c44418AD3b5850
+WARN [12-08|15:21:34.668] Please backup your key file!             path=/home/haseeb/e_practice/metaMask/chain4/node1/keystore/UTC--2021-12-08T10-21-33.065980262Z--43577ed527aa899994491cd491c44418ad3b5850
+WARN [12-08|15:21:34.668] Please remember your password! 
+INFO [12-08|15:21:35.266] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:21:47.782] Looking for peers                        peercount=0 tried=2  static=0
+INFO [12-08|15:21:57.783] Looking for peers                        peercount=0 tried=2  static=0
+INFO [12-08|15:22:07.784] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:22:17.785] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:22:27.787] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:22:37.788] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:22:49.301] Looking for peers                        peercount=0 tried=2  static=0
+INFO [12-08|15:22:59.304] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:09.305] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:19.306] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:29.308] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:39.821] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:49.822] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:23:59.823] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:24:09.825] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:24:19.826] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:24:29.827] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:24:39.836] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:24:49.837] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:24:59.839] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:25:09.842] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:25:19.843] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:25:29.845] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:25:39.846] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:25:49.848] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:25:59.850] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:26:09.852] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:26:19.855] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:26:31.867] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:26:41.869] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:26:51.871] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:27:01.873] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:27:11.876] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:27:21.877] Looking for peers                        peercount=0 tried=0  static=0
+INFO [12-08|15:27:31.878] Looking for peers                        peercount=0 tried=3  static=0
+INFO [12-08|15:27:41.880] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:27:53.384] Looking for peers                        peercount=0 tried=1  static=0
+INFO [12-08|15:28:06.879] Looking for peers                        peercount=0 tried=0  static=0
+INFO [12-08|15:28:21.882] Looking for peers                        peercount=0 tried=0  static=0
+INFO [12-08|15:31:06.805] Looking for peers                        peercount=1 tried=0  static=0
+INFO [12-08|15:35:32.381] IPC endpoint closed                      url=/home/haseeb/e_practice/metaMask/chain4/node1/geth.ipc
+INFO [12-08|15:35:32.381] Ethereum protocol stopped 
+INFO [12-08|15:35:32.381] Looking for peers                        peercount=0 tried=0  static=0
+INFO [12-08|15:35:32.381] Transaction pool stopped 
+INFO [12-08|15:35:32.381] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-08|15:35:32.381] Persisted trie from memory database      nodes=0 size=0.00B time="8.067µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-08|15:35:32.382] Writing clean trie cache to disk         path=/home/haseeb/e_practice/metaMask/chain4/node1/geth/triecache threads=4
+INFO [12-08|15:35:32.384] Persisted the clean trie cache           path=/home/haseeb/e_practice/metaMask/chain4/node1/geth/triecache elapsed=2.113ms
+INFO [12-08|15:35:32.384] Blockchain stopped 

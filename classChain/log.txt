@@ -1,0 +1,106 @@
+Script started on 2021-12-08 14:30:36+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="45"]
+]0;haseeb@haseeb-Dot: ~/e_practice/classChain[01;32mhaseeb@haseeb-Dot[00m:[01;34m~/e_practice/classChain[00m$ reboot [4Petc[K[K[Kfile --help[K ./triecache/[K[Kdir .[K[K[K[K[K./private/[K[K[K[K[K[K[K[K[K[Kgethc attach
+
+Command 'gethc' not found, did you mean:
+
+  command 'geth' from snap geth (v1.9.5)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;haseeb@haseeb-Dot: ~/e_practice/classChain[01;32mhaseeb@haseeb-Dot[00m:[01;34m~/e_practice/classChain[00m$ gethc attach[1P attach
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.10.13-stable-7a0c19f8/linux-amd64/go1.17.2
+coinbase: 0xf2581daaae2a156afc6147dbcd6dbc14c98f2546
+at block: 0 (Sat Dec 04 2021 14:35:30 GMT+0500 (PKT))
+ datadir: /home/haseeb/e_practice/classChain/private
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> [1G[0K> a[4G[1G[0K> ad[5G[1G[0K> adm[6G[1G[0K> admi[7G[1G[0K> admin[8G[1G[0K> admin.[9G[1G[0K> admin.[9G
+admin.__proto__            admin.datadir              admin.hasOwnProperty       admin.propertyIsEnumerable admin.startHTTP            admin.stopWS               
+admin.addPeer              admin.exportChain          admin.importChain          admin.removePeer           admin.startRPC             admin.toLocaleString       
+admin.addTrustedPeer       admin.getDatadir           admin.isPrototypeOf        admin.removeTrustedPeer    admin.startWS              admin.toString             
+admin.clearHistory         admin.getNodeInfo          admin.nodeInfo             admin.sleep                admin.stopHTTP             admin.valueOf              
+admin.constructor          admin.getPeers             admin.peers                admin.sleepBlocks          admin.stopRPC              
+[1G[0K> admin.[9G[1G[0K> admin.n[10G[1G[0K> admin.no[11G[1G[0K> admin.nodeInfo[17G
+{
+  enode: [32m"enode://58481781e0f5f668c1869ec4d29509ed92f7dbada1c287676b69e62c7bcc93c8546201d3ddeae291f3afacee41d23a0a61f5e05d3401a65316a96b1b7070a5c3@127.0.0.1:30303?discport=0"[0m,
+  enr: [32m"enr:-Jy4QAotZColaKfxYjq9AqdLlMMbr8XvJzQRvSVtwzLl_Jn5SG8yofnqvk63hBeIFFFaYcmCK56N-wIE6g4_zofhTYGGAX2E_9pmg2V0aMfGhGkg38GAgmlkgnY0gmlwhH8AAAGJc2VjcDI1NmsxoQNYSBeB4PX2aMGGnsTSlQntkvfbraHCh2draeYse8yTyIRzbmFwwIN0Y3CCdl8"[0m,
+  id: [32m"4932455ff584e642624c09b9211e92baa172b02555e7fa848bb0bb9274cc9e30"[0m,
+  ip: [32m"127.0.0.1"[0m,
+  listenAddr: [32m"[::]:30303"[0m,
+  name: [32m"Geth/v1.10.13-stable-7a0c19f8/linux-amd64/go1.17.2"[0m,
+  ports: {
+    discovery: [31m0[0m,
+    listener: [31m30303[0m
+  },
+  protocols: {
+    eth: {
+      config: {
+        byzantiumBlock: [31m0[0m,
+        chainId: [31m1000[0m,
+        constantinopleBlock: [31m0[0m,
+        eip150Block: [31m0[0m,
+        eip150Hash: [32m"0x0000000000000000000000000000000000000000000000000000000000000000"[0m,
+        eip155Block: [31m0[0m,
+        eip158Block: [31m0[0m,
+        ethash: {},
+        homesteadBlock: [31m0[0m,
+        istanbulBlock: [31m0[0m,
+        petersburgBlock: [31m0[0m
+      },
+      difficulty: [31m524288[0m,
+      genesis: [32m"0xb1af433736a81e9587b155c963a7586a5ebd71588daa89f2449df483bc81a3b4"[0m,
+      head: [32m"0xb1af433736a81e9587b155c963a7586a5ebd71588daa89f2449df483bc81a3b4"[0m,
+      network: [31m2020[0m
+    },
+    snap: {}
+  }
+}
+> [1G[0K> p[4G[1G[0K> pe[5G[1G[0K> per[6G[1G[0K> pers[7G[1G[0K> personal[11G[1G[0K> personal.[12G[1G[0K> personal.n[13G[1G[0K> personal.ne[14G[1G[0K> personal.new[15G[1G[0K> personal.newAccount[22G
+[35mfunction github.com/ethereum/go-ethereum/internal/jsre.MakeCallback.func1()[0m
+> [1G[0K> p[4G[1G[0K> pe[5G[1G[0K> per[6G[1G[0K> personal[11G[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.ac[14G[1G[0K> personal.acc[15G[1G[0K> personal.ac[14G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.ad[14G[1G[0K> personal.add[15G[1G[0K> personal.ad[14G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal.A[13G[1G[0K> personal.Ad[14G[1G[0K> personal.Add[15G[1G[0K> personal.Ad[14G[1G[0K> personal.A[13G[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.ad[14G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal[11G[1G[0K> personal.[12G[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G[1G[0K> personal.a[13G^C
+> ^C
+> ]0;haseeb@haseeb-Dot: ~/e_practice/classChain[01;32mhaseeb@haseeb-Dot[00m:[01;34m~/e_practice/classChain[00m$ geth attach
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.10.13-stable-7a0c19f8/linux-amd64/go1.17.2
+coinbase: 0xf2581daaae2a156afc6147dbcd6dbc14c98f2546
+at block: 0 (Sat Dec 04 2021 14:35:30 GMT+0500 (PKT))
+ datadir: /home/haseeb/e_practice/classChain/private
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> [1G[0K> p[4G[1G[0K> pe[5G[1G[0K> per[6G[1G[0K> pers[7G[1G[0K> persn[8G[1G[0K> persno[9G[1G[0K> persn[8G[1G[0K> pers[7G[1G[0K> personal[11G[1G[0K> personal.[12G
+[91mSyntaxError: SyntaxError: (anonymous): Line 2:1 Unexpected end of input
+[0m
+> [1G[0K> personal.[12G[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G
+personal._requestManager  personal.ecRecover        personal.importRawKey     personal.listWallets      personal.openWallet       personal.signTransaction  
+personal.constructor      personal.getListAccounts  personal.initializeWallet personal.lockAccount      personal.sendTransaction  personal.unlockAccount    
+personal.deriveAccount    personal.getListWallets   personal.listAccounts     personal.newAccount       personal.sign             personal.unpair           
+[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal.n[13G[1G[0K> personal.ne[14G[1G[0K> personal.new[15G[1G[0K> personal.newAccount[22G
+[35mfunction github.com/ethereum/go-ethereum/internal/jsre.MakeCallback.func1()[0m
+> [1G[0K> personal.[12G[1G[0K> personal. [13G[1G[0K> personal. [13G[1G[0K> personal. [13G[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.ac[14G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal.a[13G[1G[0K> personal.[12G[1G[0K> personal[11G[1G[0K> persona[10G[1G[0K> person[9G[1G[0K> perso[8G[1G[0K> pers[7G[1G[0K> per[6G[1G[0K> pe[5G[1G[0K> p[4G[1G[0K> [3G]0;haseeb@haseeb-Dot: ~/e_practice/classChain[01;32mhaseeb@haseeb-Dot[00m:[01;34m~/e_practice/classChain[00m$ exit
+
+Script done on 2021-12-08 14:32:32+05:00 [COMMAND_EXIT_CODE="0"]
